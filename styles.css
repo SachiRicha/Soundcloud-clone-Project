@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    
+    background-color: #333;
+    padding: 10px;
+    text-align: left;
+    color: #fff;
+    height: 50px;
+}
+
+/* nav {
+    display: flex;
+    position: absolute;
+} */
+
+nav ul {
+    display: flex;
+    position: absolute;
+    
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-right: 10px;
+    color: white;
+    /* margin-block-start: 500px; */
+}
+
+#liImg {
+    display: inline;
+    margin-left: 10px;
+    margin-right: auto;
+}
+/* 
+nav ul img{
+    display: inline;
+    margin-top: 0px;
+    margin-left: 30px;
+    
+} */
+
+main {
+    padding: 20px;
+}
+
+.playlist {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.playlist h2 {
+    margin-bottom: 10px;
+}
